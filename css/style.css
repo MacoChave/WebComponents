@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --title-font: 'Montserrat', sans-serif;
+    --body-font: 'Lato', sans-serif;
+    --dark-primary-color: #00796B;
+    --light-primary-color: #B2DFDB;
+    --primary-color: #009688;
+    --text-or-icon-color: #FFFFFF;
+    --accent-color: #FF5252;
+    --primary-text: #212121;
+    --secondary-text: #757575;
+    --divider-color: #BDBDBD;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--title-font);
+}
+
+.content, footer {
+    font-family: var(--body-font);
+}
+
+/* FOR GUIDE */
+header {
+    background: teal;
+}
+
+.content {
+    background: gold;
+}
+
+footer {
+    background: coral;
+}
