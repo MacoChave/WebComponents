@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#00796B">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Web Component</title>
@@ -13,11 +14,13 @@
         <!-- <div class="banner">
             <img src="http://lorempixel.com/1024/720" alt="banner">
         </div> -->
-        <div class="menu-toggle">
-            <i class="button material-icons">menu</i>
+        <div class="toolbar">
+            <i class="button drawer-menu material-icons">menu</i>
+            <h2 class="title">Application</h2>
+            <i class="button action-menu material-icons">more_vert</i>
         </div>
         <nav class="menu-container">
-            <ul class="menu">
+            <ul class="menu hide-menu">
                 <li class="menu_item">
                     <a class="menu__link" href="">Item 1</a>
                 </li>
@@ -84,5 +87,6 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
     </footer>
+    <script src="./script/script.js"></script>
 </body>
 </html>
